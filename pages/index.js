@@ -3,6 +3,45 @@ import Image from 'next/image'
 import { Inter } from 'next/font/google'
 import styles from '@/styles/Home.module.css'
 
+
+import { Box } from '@chakra-ui/react'
+import { AppShell, Sidebar, SidebarSection, NavItem } from '@saas-ui/react'
+
+/*
+export default function Home() {
+  return (
+    <label>Howdy</label>
+  )
+  };
+  */
+  
+
+  /*
+  export default function Home() {
+  return (
+    <AppShell
+      navbar={
+        <Box as="header" borderBottomWidth="1px" py="2" px="4">
+        </Box>
+      }
+      sidebar={
+        <Sidebar>
+          <SidebarSection>
+            <NavItem>Home</NavItem>
+            <NavItem>Settings</NavItem>
+          </SidebarSection>
+        </Sidebar>
+      }
+    >
+      <Box as="main" flex="1" py="2" px="4" overflowY="auto">
+        Your application content
+      </Box>
+    </AppShell>
+  )
+}
+*/
+
+
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
@@ -112,3 +151,4 @@ export default function Home() {
     </>
   )
 }
+
